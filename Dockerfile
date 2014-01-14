@@ -7,4 +7,4 @@ EXPOSE 5000
 
 WORKDIR /srv/www
 
-CMD ./node_modules/.bin/nf start
+CMD node server.js
